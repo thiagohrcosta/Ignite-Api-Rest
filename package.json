@@ -7,7 +7,7 @@
     "dev": "tsx watch src/server.ts",
     "knex": "node --loader tsx ./node_modules/.bin/knex",
     "lint": "eslint src --ext .ts --fix",
-    "test": "vitest"
+    "test": "export NODE_ENV=test && vitest"
   },
   "keywords": [],
   "author": "",
