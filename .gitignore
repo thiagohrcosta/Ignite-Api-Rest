@@ -5,5 +5,7 @@ tmp/app.db
 db/test/db
 db/test/db.sqlite3
 
+build 
+
 .env
 .env.test
